@@ -6,6 +6,14 @@ This simple library demonstrates how one may integrate Discord's rich presence t
 
 # Requirements (running)
 - [Microsoft Visual C++ Redistributable 2015-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) x64
+    - in case you don't want your users to install this package you may statically link it:
+        1. open `L2DiscordPresence (project) properties`
+        2. select `Configuration -> Release` & `Platform -> Win32`
+        3. go to `C/C++ -> Code Generation`
+        4. select `Runtime Library -> Multi-threaded (/MT)`
+        5. press `Ok`
+
+<img src="./assets/doc_static-link.png" alt="Config example" width=70%>
 
 # Discord setup
 ## You'll need some Discord application in order to use this library
