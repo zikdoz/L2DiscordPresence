@@ -4,6 +4,9 @@ This simple library demonstrates how one may integrate Discord's rich presence t
 
 <img src="./assets/preview.png" alt="Preview" width=50%>
 
+# Requirements (running)
+- [Microsoft Visual C++ Redistributable 2015-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) x64
+
 # Discord setup
 ## You'll need some Discord application in order to use this library
   
